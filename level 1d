@@ -1,0 +1,62 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-changing Button</title>
+    <link rel="stylesheet" href="l11t1.css">
+</head>
+<body>
+
+    <button id="colorButton">Click me to change color!</button>
+
+    <script src="l11t1.js"></script>
+</body>
+</html>
+
+CSS CODE
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+JS CODE
+
+const colorButton = document.getElementById('colorButton');
+
+colorButton.addEventListener('click', () => {
+     const randomColor = getRandomColor();
+
+    colorButton.style.backgroundColor = randomColor;
+});
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+  
