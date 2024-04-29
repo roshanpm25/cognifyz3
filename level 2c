@@ -1,0 +1,80 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="l22t1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Webpage</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Code Company</p>
+    </footer>
+
+</body>
+</html>
+
+CSS CODE
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #987070;
+  color: #000000;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+ background-image: linear-gradient(red,purple);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(103, 18, 18, 0.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+      width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+      width: 100%;
+  }
+}
+
