@@ -1,0 +1,65 @@
+TASK Level 1
+
+HTML CODE 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="l1t1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <div class="content">
+        <p>This is a simple webpage created using HTML and CSS.</p>
+        <img src="https://speckyboy.com/wp-content/uploads/2020/11/high-resolution-4k-desktop-wallpaper-06.jpg" alt="Placeholder Image">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus molestiae quo pariatur repellat delectus enim, totam itaque doloremque quibusdam adipisci odio provident vero veritatis amet officiis sit maxime, sed labore laborum aperiam earum, modi rerum! Dolorem dolore maiores qui dolor obcaecati, rem eligendi, unde, ipsam officiis amet accusamus magnam.</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+CSS CODE
+
+/*body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #163353;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+*/
