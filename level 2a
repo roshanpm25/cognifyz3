@@ -1,0 +1,64 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card with Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="l2t1.css"> <!-- Optional custom styles -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rGdBrUCsTs70SRM0kukrB8u4ikYfF7tQjg&usqp=CAU" alt="Placeholder Image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    <p class="title is-4">Card Title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+CSS CODE
+
+/* Optional custom styles */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: solid rgb(39, 37, 37) 4px;}
+
+.card-image img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 10px;
+}
